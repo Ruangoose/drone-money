@@ -1,11 +1,11 @@
 day0,kind,event,note,source
-2022-02-24,war,Russia's full-scale invasion of Ukraine,Biden's statement was issued on the evening of 23 Feb,https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/02/23/statement-by-president-biden-on-russias-unprovoked-and-unjustified-attack-on-ukraine/
+2022-02-24,war,Russia’s full-scale invasion of Ukraine,Biden's statement was issued on the evening of 23 Feb,https://bidenwhitehouse.archives.gov/briefing-room/statements-releases/2022/02/23/statement-by-president-biden-on-russias-unprovoked-and-unjustified-attack-on-ukraine/
 2022-03-28,budget,FY2023 budget request,OMB and DoD the same day,https://www.govinfo.gov/app/details/BUDGET-2023-BUD
 2023-03-09,budget,FY2024 budget request (topline),DoD details followed on 13 Mar,https://www.govinfo.gov/app/details/BUDGET-2024-BUD
 2023-03-13,budget,FY2024 budget request (DoD details),,https://www.war.gov/News/Releases/Release/Article/3326875/
 2023-08-28,drone policy,Replicator announced (Deputy Secretary Hicks),Morning speech at NDIA,https://www.war.gov/News/Speeches/Speech/Article/3507156/
 2024-03-11,budget,FY2025 budget request,OMB and DoD the same day,https://www.govinfo.gov/app/details/BUDGET-2025-BUD
-2024-05-06,drone policy,Replicator first tranche named (incl. Switchblade 600),,https://www.war.gov/News/Releases/Release/Article/3765644/
+2024-05-06,drone policy,"Replicator first tranche named, including Switchblade 600",,https://www.war.gov/News/Releases/Release/Article/3765644/
 2024-11-13,drone policy,Replicator second tranche,,https://www.war.gov/News/Releases/Release/Article/3963289/
 2025-05-02,budget,FY2026 discretionary budget request,,https://www.govinfo.gov/app/details/BUDGET-2026-BUD
 2025-06-06,drone policy,"Executive Order 14307, Unleashing American Drone Dominance",Signing time not stated; if after the close the first session is 9 Jun,https://www.whitehouse.gov/presidential-actions/2025/06/unleashing-american-drone-dominance/
@@ -13,10 +13,10 @@ day0,kind,event,note,source
 2025-07-07,funding,Reconciliation act signed (P.L. 119-21: drone and counter-drone lines),Signed 4 Jul (market holiday),https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
 2025-07-10,drone policy,Hegseth memo: Unleashing U.S. Military Drone Dominance,Posted 10 Jul; DoD News covered it 11 Jul,https://media.defense.gov/2025/Jul/10/2003752117/-1/-1/1/UNLEASHING-U.S.-MILITARY-DRONE-DOMINANCE.PDF
 2025-08-28,drone policy,Joint Interagency Task Force 401 (counter-drone) established,Memo signed 27 Aug; posted 28 Aug,https://media.defense.gov/2025/Aug/28/2003790021/-1/-1/0/ESTABLISHMENT-OF-JOINT-INTERAGENCY-TASK-FORCE-401.PDF
-2025-12-02,drone policy,Drone Dominance Program launched (about 300000 low-cost drones),Industry request went out earlier that week,https://www.war.gov/News/News-Stories/Article/Article/4346822/
+2025-12-02,drone policy,Drone Dominance Program launched,Industry request went out earlier that week,https://www.war.gov/News/News-Stories/Article/Article/4346822/
 2026-01-07,budget,President calls for a $1.5 trillion FY2027 defense budget,Dated in the FY2027 budget briefing's first slide,https://comptroller.war.gov/Portals/45/Documents/defbudget/FY2027/FY2027_Budget_Request.pdf
 2026-02-03,drone policy,Drone Dominance Program Phase I vendors named,,https://www.war.gov/News/Releases/Release/Article/4396462/
 2026-04-06,budget,FY2027 budget request (OMB),Released Fri 3 Apr (Good Friday; NYSE closed),https://www.govinfo.gov/app/details/BUDGET-2027-BUD/context
-2026-04-21,budget,FY2027 budget request (DoW details: over $74B for drones and counter-drone),,https://www.war.gov/News/Releases/Release/Article/4466038/
-2026-08-13,trade,Tariffs of 25% to 100% on imported drones and parts,,https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-bolsters-national-security-and-strengthens-u-s-supply-chains-by-imposing-tariffs-on-drones-and-their-parts-and-components/
+2026-04-21,budget,FY2027 budget request (Department of War details),,https://www.war.gov/News/Releases/Release/Article/4466038/
+2026-08-13,trade,Tariffs on imported drones and parts,,https://www.whitehouse.gov/fact-sheets/2026/08/fact-sheet-president-donald-j-trump-bolsters-national-security-and-strengthens-u-s-supply-chains-by-imposing-tariffs-on-drones-and-their-parts-and-components/
 2026-09-30,drone policy,Project Agincourt (path to an Autonomous Warfare Command),,https://www.war.gov/News/Releases/Release/Article/4615424/

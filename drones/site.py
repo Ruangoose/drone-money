@@ -35,8 +35,8 @@ NAMES = {"AVAV": "AeroVironment", "KTOS": "Kratos", "UAVS": "AgEagle", "RCAT": "
 # Recipient groups (companies.py), as the page names them.
 GROUPS = {"primes": "primes", "drone basket companies": "listed", "private": "private", "other": "other"}
 KINDS = {"loitering munitions": "loitering", "counter-drone": "counter_drone", "coyote": "coyote"}
-SERIES =["drones", "primes", "pair_dollar", "pair_capweighted", "pair_beta", "drones_capweighted",
-          "primes_capweighted"]
+# The page shows the equal-weighted baskets and pair, and the market-value-weighted versions as a check.
+SERIES = ["drones", "primes", "pair_dollar", "pair_capweighted", "drones_capweighted", "primes_capweighted"]
 HISTORY = ("2019-01-01", "2024-12-31")  # the valuation history that "now" is set against
 
 
@@ -114,9 +114,6 @@ def screen_summary(held):
     passing = broad[broad.passes_intensity].drop_duplicates("cik")
     near = best[(best.source == "phrase screen") & (best.outcome == "fails liquidity")]
     near = near.sort_values("max_month_start_median_m", ascending=False).head(2)
-    stopped = best[(best.source == "broad check") & (best.outcome == "fails liquidity")]
-    closest = stopped[stopped.cik.isin(passing.loc[passing.stopped_filing, "cik"])]
-    closest = closest.sort_values("max_month_start_median_m", ascending=False).head(1)
     first_held = {}
     for month, names in held["drones"].items():
         for s in names:
@@ -134,9 +131,7 @@ def screen_summary(held):
         "broad": {"terms": len(reach.BROAD), "tenks": check["broad_10k_hits"], "companies": check["broad_companies"],
                   "new": check["new_companies"], "stopped": check["new_stopped"], "scored": check["scored_10ks"],
                   "passing": check["passing"], "passing_stopped": int(passing.stopped_filing.sum()),
-                  "passing_active": int((~passing.stopped_filing).sum()),
-                  "closest_stopped": [{"name": r["name"].title(), "max_median_m": _num(r.max_month_start_median_m, 2)}
-                                      for _, r in closest.iterrows()]},
+                  "passing_active": int((~passing.stopped_filing).sum())},
     }
 
 
@@ -201,6 +196,8 @@ def attribution():
     out = {}
     for key, v in a.items():
         series, sample = [x.strip() for x in key.split("|")]
+        if series not in SERIES:
+            continue
         out.setdefault(series, {})["all" if sample == "all" else "since_2022"] = {
             "start": v["start"], "end": v["end"], "n": v["n"], "r2": _num(v["r2"]),
             "alpha_ann": _num(v["alpha_ann"]), "alpha_t": _num(v["alpha_t"]),

@@ -99,13 +99,7 @@
    "scored": 451,
    "passing": 18,
    "passing_stopped": 14,
-   "passing_active": 4,
-   "closest_stopped": [
-    {
-     "name": "Netcapital Inc.",
-     "max_median_m": 0.31
-    }
-   ]
+   "passing_active": 4
   }
  },
  "baskets": {
@@ -174,14 +168,6 @@
     "max_drawdown": -0.710405,
     "total": 0.85323
    },
-   "pair_beta": {
-    "start": "2017-04-28",
-    "end": "2026-10-20",
-    "ann_return": -0.120984,
-    "ann_vol": 0.609737,
-    "max_drawdown": -0.956137,
-    "total": -0.704597
-   },
    "drones_capweighted": {
     "start": "2017-02-01",
     "end": "2026-10-20",
@@ -231,14 +217,6 @@
     "ann_vol": 0.37127,
     "max_drawdown": -0.578931,
     "total": 0.520203
-   },
-   "pair_beta": {
-    "start": "2017-04-28",
-    "end": "2021-12-31",
-    "ann_return": 0.039978,
-    "ann_vol": 0.459867,
-    "max_drawdown": -0.761035,
-    "total": 0.201291
    },
    "drones_capweighted": {
     "start": "2017-02-01",
@@ -290,14 +268,6 @@
     "max_drawdown": -0.407868,
     "total": 0.450632
    },
-   "pair_beta": {
-    "start": "2022-01-03",
-    "end": "2024-12-31",
-    "ann_return": -0.015894,
-    "ann_vol": 0.429989,
-    "max_drawdown": -0.57743,
-    "total": -0.046745
-   },
    "drones_capweighted": {
     "start": "2022-01-03",
     "end": "2024-12-31",
@@ -348,14 +318,6 @@
     "max_drawdown": -0.375525,
     "total": 0.512829
    },
-   "pair_beta": {
-    "start": "2025-01-02",
-    "end": "2025-12-31",
-    "ann_return": -0.577191,
-    "ann_vol": 0.897261,
-    "max_drawdown": -0.689822,
-    "total": -0.574293
-   },
    "drones_capweighted": {
     "start": "2025-01-02",
     "end": "2025-12-31",
@@ -405,14 +367,6 @@
     "ann_vol": 0.654497,
     "max_drawdown": -0.612416,
     "total": -0.444504
-   },
-   "pair_beta": {
-    "start": "2026-01-02",
-    "end": "2026-10-20",
-    "ann_return": -0.466362,
-    "ann_vol": 1.217887,
-    "max_drawdown": -0.754324,
-    "total": -0.394036
    },
    "drones_capweighted": {
     "start": "2026-01-02",
@@ -580,56 +534,6 @@
      "RMW": -6.239243,
      "CMA": -2.319111,
      "MOM": 5.581135
-    }
-   }
-  },
-  "pair_beta": {
-   "all": {
-    "start": "2017-04-28",
-    "end": "2026-08-31",
-    "n": 2348,
-    "r2": 0.1072,
-    "alpha_ann": 0.11738,
-    "alpha_t": 0.613193,
-    "betas": {
-     "MKT": -0.350841,
-     "SMB": 0.964215,
-     "HML": -0.513359,
-     "RMW": -0.890471,
-     "CMA": -0.647974,
-     "MOM": 0.270876
-    },
-    "t": {
-     "MKT": -2.870725,
-     "SMB": 5.249183,
-     "HML": -3.510889,
-     "RMW": -4.205449,
-     "CMA": -2.389682,
-     "MOM": 3.004888
-    }
-   },
-   "since_2022": {
-    "start": "2022-01-03",
-    "end": "2026-08-31",
-    "n": 1169,
-    "r2": 0.124275,
-    "alpha_ann": 0.052153,
-    "alpha_t": 0.166412,
-    "betas": {
-     "MKT": -0.733177,
-     "SMB": 1.01378,
-     "HML": -0.942884,
-     "RMW": -1.105004,
-     "CMA": -0.917053,
-     "MOM": 0.595922
-    },
-    "t": {
-     "MKT": -3.023727,
-     "SMB": 2.915942,
-     "HML": -3.857335,
-     "RMW": -3.818081,
-     "CMA": -2.695124,
-     "MOM": 3.788415
     }
    }
   }
