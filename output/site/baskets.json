@@ -1,0 +1,1602 @@
+{
+ "names": {
+  "AVAV": "AeroVironment",
+  "KTOS": "Kratos",
+  "UAVS": "AgEagle",
+  "RCAT": "Red Cat",
+  "ONDS": "Ondas",
+  "UMAC": "Unusual Machines",
+  "RDW": "Redwire",
+  "AIRO": "AIRO Group",
+  "XTIA": "XTI Aerospace",
+  "LMT": "Lockheed Martin",
+  "RTX": "RTX",
+  "RTN": "Raytheon",
+  "UTX": "United Technologies",
+  "GD": "General Dynamics",
+  "BA": "Boeing",
+  "NOC": "Northrop Grumman",
+  "HII": "Huntington Ingalls"
+ },
+ "drones": {
+  "2016-01": [],
+  "2016-02": [],
+  "2016-03": [],
+  "2016-04": [],
+  "2016-05": [],
+  "2016-06": [],
+  "2016-07": [],
+  "2016-08": [],
+  "2016-09": [],
+  "2016-10": [],
+  "2016-11": [],
+  "2016-12": [],
+  "2017-01": [],
+  "2017-02": [
+   "KTOS"
+  ],
+  "2017-03": [
+   "KTOS"
+  ],
+  "2017-04": [
+   "KTOS"
+  ],
+  "2017-05": [
+   "KTOS"
+  ],
+  "2017-06": [
+   "KTOS"
+  ],
+  "2017-07": [
+   "KTOS"
+  ],
+  "2017-08": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2017-09": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2017-10": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2017-11": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2017-12": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2018-01": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2018-02": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2018-03": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2018-04": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2018-05": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2018-06": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2018-07": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2018-08": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2018-09": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2018-10": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2018-11": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2018-12": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2019-01": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2019-02": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2019-03": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2019-04": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2019-05": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2019-06": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2019-07": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2019-08": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2019-09": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2019-10": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2019-11": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2019-12": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2020-01": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2020-02": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2020-03": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2020-04": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2020-05": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2020-06": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2020-07": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2020-08": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2020-09": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2020-10": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2020-11": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2020-12": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2021-01": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2021-02": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2021-03": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2021-04": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2021-05": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2021-06": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2021-07": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2021-08": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2021-09": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2021-10": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2021-11": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2021-12": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2022-01": [
+   "AVAV",
+   "KTOS",
+   "UAVS"
+  ],
+  "2022-02": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2022-03": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2022-04": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2022-05": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2022-06": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2022-07": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2022-08": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2022-09": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2022-10": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2022-11": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2022-12": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2023-01": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2023-02": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2023-03": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2023-04": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2023-05": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2023-06": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2023-07": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2023-08": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2023-09": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2023-10": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2023-11": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2023-12": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2024-01": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2024-02": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2024-03": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2024-04": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2024-05": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2024-06": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2024-07": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2024-08": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2024-09": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2024-10": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2024-11": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2024-12": [
+   "AVAV",
+   "KTOS"
+  ],
+  "2025-01": [
+   "AVAV",
+   "KTOS",
+   "RCAT",
+   "UAVS"
+  ],
+  "2025-02": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "UMAC"
+  ],
+  "2025-03": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "UMAC"
+  ],
+  "2025-04": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "UMAC"
+  ],
+  "2025-05": [
+   "AVAV",
+   "KTOS",
+   "RCAT",
+   "UMAC"
+  ],
+  "2025-06": [
+   "AVAV",
+   "KTOS",
+   "RCAT"
+  ],
+  "2025-07": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "UMAC"
+  ],
+  "2025-08": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "UMAC"
+  ],
+  "2025-09": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "UAVS",
+   "UMAC"
+  ],
+  "2025-10": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "UAVS",
+   "UMAC"
+  ],
+  "2025-11": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "UAVS",
+   "UMAC"
+  ],
+  "2025-12": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "UMAC"
+  ],
+  "2026-01": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "UMAC"
+  ],
+  "2026-02": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "UMAC"
+  ],
+  "2026-03": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "RDW",
+   "UMAC"
+  ],
+  "2026-04": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "RDW",
+   "UMAC"
+  ],
+  "2026-05": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "RDW",
+   "UMAC"
+  ],
+  "2026-06": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "RDW",
+   "UMAC"
+  ],
+  "2026-07": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "RDW",
+   "UMAC"
+  ],
+  "2026-08": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "RDW",
+   "UMAC"
+  ],
+  "2026-09": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "RDW",
+   "UMAC"
+  ],
+  "2026-10": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "RDW",
+   "UMAC"
+  ]
+ },
+ "primes": {
+  "2016-01": [],
+  "2016-02": [],
+  "2016-03": [],
+  "2016-04": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2016-05": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2016-06": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2016-07": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2016-08": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2016-09": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2016-10": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2016-11": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2016-12": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2017-01": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2017-02": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2017-03": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2017-04": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2017-05": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2017-06": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2017-07": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2017-08": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2017-09": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2017-10": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2017-11": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2017-12": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2018-01": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2018-02": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2018-03": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2018-04": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2018-05": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2018-06": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2018-07": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2018-08": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2018-09": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2018-10": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2018-11": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2018-12": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2019-01": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2019-02": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2019-03": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2019-04": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2019-05": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2019-06": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2019-07": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2019-08": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2019-09": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2019-10": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2019-11": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2019-12": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN"
+  ],
+  "2020-01": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2020-02": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2020-03": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2020-04": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTN",
+   "UTX"
+  ],
+  "2020-05": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2020-06": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2020-07": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2020-08": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2020-09": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2020-10": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2020-11": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2020-12": [
+   "BA",
+   "GD",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2021-01": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2021-02": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2021-03": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2021-04": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2021-05": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2021-06": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2021-07": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2021-08": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2021-09": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2021-10": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2021-11": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2021-12": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2022-01": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2022-02": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2022-03": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2022-04": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2022-05": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2022-06": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2022-07": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2022-08": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2022-09": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2022-10": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2022-11": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2022-12": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2023-01": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2023-02": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2023-03": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2023-04": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2023-05": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2023-06": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2023-07": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2023-08": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2023-09": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2023-10": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2023-11": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2023-12": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2024-01": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2024-02": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2024-03": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2024-04": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2024-05": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2024-06": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2024-07": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2024-08": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2024-09": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2024-10": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2024-11": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2024-12": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2025-01": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2025-02": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2025-03": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2025-04": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2025-05": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2025-06": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2025-07": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2025-08": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2025-09": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2025-10": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2025-11": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2025-12": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2026-01": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2026-02": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2026-03": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2026-04": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2026-05": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2026-06": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2026-07": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2026-08": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2026-09": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "2026-10": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ]
+ }
+}

@@ -1,0 +1,866 @@
+{
+ "end": "2026-10-20",
+ "factors_end": "2026-08-31",
+ "names": {
+  "AVAV": "AeroVironment",
+  "KTOS": "Kratos",
+  "UAVS": "AgEagle",
+  "RCAT": "Red Cat",
+  "ONDS": "Ondas",
+  "UMAC": "Unusual Machines",
+  "RDW": "Redwire",
+  "AIRO": "AIRO Group",
+  "XTIA": "XTI Aerospace",
+  "LMT": "Lockheed Martin",
+  "RTX": "RTX",
+  "RTN": "Raytheon",
+  "UTX": "United Technologies",
+  "GD": "General Dynamics",
+  "BA": "Boeing",
+  "NOC": "Northrop Grumman",
+  "HII": "Huntington Ingalls"
+ },
+ "screen": {
+  "phrases": 13,
+  "companies": 57,
+  "tenks_scored": 433,
+  "intensity_min": 5.0,
+  "liquidity_min_m": 5.0,
+  "liquidity_days": 63,
+  "n_primes": 6,
+  "manufacturing_min": 0.5,
+  "passing_companies": 32,
+  "outcomes": {
+   "phrase": {
+    "fails_materiality": 11,
+    "fails_liquidity": 8,
+    "member": 7,
+    "fails_listing": 6
+   },
+   "broad": {
+    "fails_listing": 11,
+    "fails_liquidity": 5,
+    "fails_materiality": 2
+   }
+  },
+  "members": [
+   {
+    "symbol": "KTOS",
+    "name": "Kratos",
+    "first_month": "2017-02"
+   },
+   {
+    "symbol": "AVAV",
+    "name": "AeroVironment",
+    "first_month": "2017-08"
+   },
+   {
+    "symbol": "UAVS",
+    "name": "AgEagle",
+    "first_month": "2020-07"
+   },
+   {
+    "symbol": "RCAT",
+    "name": "Red Cat",
+    "first_month": "2025-01"
+   },
+   {
+    "symbol": "ONDS",
+    "name": "Ondas",
+    "first_month": "2025-02"
+   },
+   {
+    "symbol": "UMAC",
+    "name": "Unusual Machines",
+    "first_month": "2025-02"
+   },
+   {
+    "symbol": "RDW",
+    "name": "Redwire",
+    "first_month": "2026-03"
+   }
+  ],
+  "near_misses": [
+   {
+    "name": "AIRO Group",
+    "max_median_m": 4.9
+   },
+   {
+    "name": "XTI Aerospace",
+    "max_median_m": 3.39
+   }
+  ],
+  "broad": {
+   "terms": 13,
+   "tenks": 1946,
+   "companies": 620,
+   "new": 564,
+   "stopped": 160,
+   "scored": 451,
+   "passing": 18,
+   "passing_stopped": 14,
+   "passing_active": 4,
+   "closest_stopped": [
+    {
+     "name": "Netcapital Inc.",
+     "max_median_m": 0.31
+    }
+   ]
+  }
+ },
+ "baskets": {
+  "drones_first_month": "2017-02",
+  "drones_months_to_2024": 95,
+  "drones_months_only_avav_ktos": 77,
+  "drones_max_names": 6,
+  "drones_now": [
+   "AVAV",
+   "KTOS",
+   "ONDS",
+   "RCAT",
+   "RDW",
+   "UMAC"
+  ],
+  "primes_now": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTX"
+  ],
+  "primes_ever": [
+   "BA",
+   "GD",
+   "HII",
+   "LMT",
+   "NOC",
+   "RTN",
+   "RTX",
+   "UTX"
+  ]
+ },
+ "performance": {
+  "all": {
+   "drones": {
+    "start": "2017-02-01",
+    "end": "2026-10-20",
+    "ann_return": 0.2184,
+    "ann_vol": 0.531207,
+    "max_drawdown": -0.767283,
+    "total": 5.787097
+   },
+   "primes": {
+    "start": "2017-02-01",
+    "end": "2026-10-20",
+    "ann_return": 0.102655,
+    "ann_vol": 0.22549,
+    "max_drawdown": -0.465597,
+    "total": 1.578872
+   },
+   "pair_dollar": {
+    "start": "2017-02-01",
+    "end": "2026-10-20",
+    "ann_return": 0.105603,
+    "ann_vol": 0.479537,
+    "max_drawdown": -0.830919,
+    "total": 1.646479
+   },
+   "pair_capweighted": {
+    "start": "2017-02-01",
+    "end": "2026-10-20",
+    "ann_return": 0.065706,
+    "ann_vol": 0.410859,
+    "max_drawdown": -0.710405,
+    "total": 0.85323
+   },
+   "pair_beta": {
+    "start": "2017-04-28",
+    "end": "2026-10-20",
+    "ann_return": -0.120984,
+    "ann_vol": 0.609737,
+    "max_drawdown": -0.956137,
+    "total": -0.704597
+   },
+   "drones_capweighted": {
+    "start": "2017-02-01",
+    "end": "2026-10-20",
+    "ann_return": 0.166584,
+    "ann_vol": 0.465613,
+    "max_drawdown": -0.657471,
+    "total": 3.453622
+   },
+   "primes_capweighted": {
+    "start": "2017-02-01",
+    "end": "2026-10-20",
+    "ann_return": 0.090322,
+    "ann_vol": 0.236162,
+    "max_drawdown": -0.510731,
+    "total": 1.312461
+   }
+  },
+  "to_2021": {
+   "drones": {
+    "start": "2017-02-01",
+    "end": "2021-12-31",
+    "ann_return": 0.225111,
+    "ann_vol": 0.482664,
+    "max_drawdown": -0.692723,
+    "total": 1.713495
+   },
+   "primes": {
+    "start": "2017-02-01",
+    "end": "2021-12-31",
+    "ann_return": 0.07766,
+    "ann_vol": 0.25089,
+    "max_drawdown": -0.465597,
+    "total": 0.444452
+   },
+   "pair_dollar": {
+    "start": "2017-02-01",
+    "end": "2021-12-31",
+    "ann_return": 0.129869,
+    "ann_vol": 0.427296,
+    "max_drawdown": -0.735839,
+    "total": 0.822727
+   },
+   "pair_capweighted": {
+    "start": "2017-02-01",
+    "end": "2021-12-31",
+    "ann_return": 0.088922,
+    "ann_vol": 0.37127,
+    "max_drawdown": -0.578931,
+    "total": 0.520203
+   },
+   "pair_beta": {
+    "start": "2017-04-28",
+    "end": "2021-12-31",
+    "ann_return": 0.039978,
+    "ann_vol": 0.459867,
+    "max_drawdown": -0.761035,
+    "total": 0.201291
+   },
+   "drones_capweighted": {
+    "start": "2017-02-01",
+    "end": "2021-12-31",
+    "ann_return": 0.177933,
+    "ann_vol": 0.42909,
+    "max_drawdown": -0.521483,
+    "total": 1.237057
+   },
+   "primes_capweighted": {
+    "start": "2017-02-01",
+    "end": "2021-12-31",
+    "ann_return": 0.067549,
+    "ann_vol": 0.269853,
+    "max_drawdown": -0.510731,
+    "total": 0.379028
+   }
+  },
+  "2022_24": {
+   "drones": {
+    "start": "2022-01-03",
+    "end": "2024-12-31",
+    "ann_return": 0.237634,
+    "ann_vol": 0.415821,
+    "max_drawdown": -0.417168,
+    "total": 0.890927
+   },
+   "primes": {
+    "start": "2022-01-03",
+    "end": "2024-12-31",
+    "ann_return": 0.094962,
+    "ann_vol": 0.184256,
+    "max_drawdown": -0.158815,
+    "total": 0.311379
+   },
+   "pair_dollar": {
+    "start": "2022-01-03",
+    "end": "2024-12-31",
+    "ann_return": 0.133944,
+    "ann_vol": 0.36399,
+    "max_drawdown": -0.445209,
+    "total": 0.45588
+   },
+   "pair_capweighted": {
+    "start": "2022-01-03",
+    "end": "2024-12-31",
+    "ann_return": 0.132575,
+    "ann_vol": 0.374136,
+    "max_drawdown": -0.407868,
+    "total": 0.450632
+   },
+   "pair_beta": {
+    "start": "2022-01-03",
+    "end": "2024-12-31",
+    "ann_return": -0.015894,
+    "ann_vol": 0.429989,
+    "max_drawdown": -0.57743,
+    "total": -0.046745
+   },
+   "drones_capweighted": {
+    "start": "2022-01-03",
+    "end": "2024-12-31",
+    "ann_return": 0.220776,
+    "ann_vol": 0.421974,
+    "max_drawdown": -0.409519,
+    "total": 0.815001
+   },
+   "primes_capweighted": {
+    "start": "2022-01-03",
+    "end": "2024-12-31",
+    "ann_return": 0.079897,
+    "ann_vol": 0.185159,
+    "max_drawdown": -0.185255,
+    "total": 0.2582
+   }
+  },
+  "2025": {
+   "drones": {
+    "start": "2025-01-02",
+    "end": "2025-12-31",
+    "ann_return": 0.650948,
+    "ann_vol": 0.719811,
+    "max_drawdown": -0.469394,
+    "total": 0.644392
+   },
+   "primes": {
+    "start": "2025-01-02",
+    "end": "2025-12-31",
+    "ann_return": 0.375882,
+    "ann_vol": 0.200157,
+    "max_drawdown": -0.106975,
+    "total": 0.372402
+   },
+   "pair_dollar": {
+    "start": "2025-01-02",
+    "end": "2025-12-31",
+    "ann_return": 0.206439,
+    "ann_vol": 0.682646,
+    "max_drawdown": -0.497802,
+    "total": 0.204643
+   },
+   "pair_capweighted": {
+    "start": "2025-01-02",
+    "end": "2025-12-31",
+    "ann_return": 0.517847,
+    "ann_vol": 0.448715,
+    "max_drawdown": -0.375525,
+    "total": 0.512829
+   },
+   "pair_beta": {
+    "start": "2025-01-02",
+    "end": "2025-12-31",
+    "ann_return": -0.577191,
+    "ann_vol": 0.897261,
+    "max_drawdown": -0.689822,
+    "total": -0.574293
+   },
+   "drones_capweighted": {
+    "start": "2025-01-02",
+    "end": "2025-12-31",
+    "ann_return": 0.986205,
+    "ann_vol": 0.506706,
+    "max_drawdown": -0.392525,
+    "total": 0.975417
+   },
+   "primes_capweighted": {
+    "start": "2025-01-02",
+    "end": "2025-12-31",
+    "ann_return": 0.317759,
+    "ann_vol": 0.203896,
+    "max_drawdown": -0.121198,
+    "total": 0.314876
+   }
+  },
+  "2026": {
+   "drones": {
+    "start": "2026-01-02",
+    "end": "2026-10-20",
+    "ann_return": -0.238813,
+    "ann_vol": 0.840825,
+    "max_drawdown": -0.532426,
+    "total": -0.195594
+   },
+   "primes": {
+    "start": "2026-01-02",
+    "end": "2026-10-20",
+    "ann_return": -0.010004,
+    "ann_vol": 0.231027,
+    "max_drawdown": -0.246029,
+    "total": -0.007988
+   },
+   "pair_dollar": {
+    "start": "2026-01-02",
+    "end": "2026-10-20",
+    "ann_return": -0.210872,
+    "ann_vol": 0.773905,
+    "max_drawdown": -0.526006,
+    "total": -0.172128
+   },
+   "pair_capweighted": {
+    "start": "2026-01-02",
+    "end": "2026-10-20",
+    "ann_return": -0.521482,
+    "ann_vol": 0.654497,
+    "max_drawdown": -0.612416,
+    "total": -0.444504
+   },
+   "pair_beta": {
+    "start": "2026-01-02",
+    "end": "2026-10-20",
+    "ann_return": -0.466362,
+    "ann_vol": 1.217887,
+    "max_drawdown": -0.754324,
+    "total": -0.394036
+   },
+   "drones_capweighted": {
+    "start": "2026-01-02",
+    "end": "2026-10-20",
+    "ann_return": -0.521731,
+    "ann_vol": 0.71727,
+    "max_drawdown": -0.657471,
+    "total": -0.444735
+   },
+   "primes_capweighted": {
+    "start": "2026-01-02",
+    "end": "2026-10-20",
+    "ann_return": 0.017081,
+    "ann_vol": 0.22218,
+    "max_drawdown": -0.202287,
+    "total": 0.0136
+   }
+  }
+ },
+ "attribution": {
+  "drones": {
+   "all": {
+    "start": "2017-02-01",
+    "end": "2026-08-31",
+    "n": 2408,
+    "r2": 0.318008,
+    "alpha_ann": 0.226518,
+    "alpha_t": 1.476574,
+    "betas": {
+     "MKT": 1.139537,
+     "SMB": 0.941846,
+     "HML": -0.050853,
+     "RMW": -1.04024,
+     "CMA": -0.032451,
+     "MOM": 0.239898
+    },
+    "t": {
+     "MKT": 20.103476,
+     "SMB": 8.288287,
+     "HML": -0.485459,
+     "RMW": -7.20199,
+     "CMA": -0.175904,
+     "MOM": 3.395181
+    }
+   },
+   "since_2022": {
+    "start": "2022-01-03",
+    "end": "2026-08-31",
+    "n": 1169,
+    "r2": 0.334561,
+    "alpha_ann": 0.281498,
+    "alpha_t": 1.201301,
+    "betas": {
+     "MKT": 1.116552,
+     "SMB": 0.882813,
+     "HML": -0.271132,
+     "RMW": -1.230988,
+     "CMA": -0.238652,
+     "MOM": 0.507066
+    },
+    "t": {
+     "MKT": 13.311808,
+     "SMB": 5.615005,
+     "HML": -1.866255,
+     "RMW": -6.236853,
+     "CMA": -1.190308,
+     "MOM": 4.993303
+    }
+   }
+  },
+  "primes": {
+   "all": {
+    "start": "2016-04-01",
+    "end": "2026-08-31",
+    "n": 2619,
+    "r2": 0.4858,
+    "alpha_ann": 0.008812,
+    "alpha_t": 0.17932,
+    "betas": {
+     "MKT": 0.805499,
+     "SMB": 0.013982,
+     "HML": 0.357404,
+     "RMW": 0.091961,
+     "CMA": 0.171592,
+     "MOM": -0.052457
+    },
+    "t": {
+     "MKT": 26.891615,
+     "SMB": 0.302819,
+     "HML": 8.134079,
+     "RMW": 1.805973,
+     "CMA": 2.762894,
+     "MOM": -1.757252
+    }
+   },
+   "since_2022": {
+    "start": "2022-01-03",
+    "end": "2026-08-31",
+    "n": 1169,
+    "r2": 0.267967,
+    "alpha_ann": 0.047861,
+    "alpha_t": 0.621848,
+    "betas": {
+     "MKT": 0.61268,
+     "SMB": -0.008464,
+     "HML": 0.272148,
+     "RMW": -0.058023,
+     "CMA": 0.200083,
+     "MOM": -0.030803
+    },
+    "t": {
+     "MKT": 15.438066,
+     "SMB": -0.123326,
+     "HML": 4.994378,
+     "RMW": -0.839895,
+     "CMA": 2.496232,
+     "MOM": -0.77143
+    }
+   }
+  },
+  "pair_dollar": {
+   "all": {
+    "start": "2017-02-01",
+    "end": "2026-08-31",
+    "n": 2408,
+    "r2": 0.206845,
+    "alpha_ann": 0.221467,
+    "alpha_t": 1.473504,
+    "betas": {
+     "MKT": 0.329173,
+     "SMB": 0.940433,
+     "HML": -0.427689,
+     "RMW": -1.106784,
+     "CMA": -0.202817,
+     "MOM": 0.296509
+    },
+    "t": {
+     "MKT": 4.898779,
+     "SMB": 8.613711,
+     "HML": -4.024545,
+     "RMW": -7.926089,
+     "CMA": -1.15596,
+     "MOM": 4.175807
+    }
+   },
+   "since_2022": {
+    "start": "2022-01-03",
+    "end": "2026-08-31",
+    "n": 1169,
+    "r2": 0.26858,
+    "alpha_ann": 0.233636,
+    "alpha_t": 1.056318,
+    "betas": {
+     "MKT": 0.503872,
+     "SMB": 0.891277,
+     "HML": -0.54328,
+     "RMW": -1.172965,
+     "CMA": -0.438735,
+     "MOM": 0.537869
+    },
+    "t": {
+     "MKT": 6.252912,
+     "SMB": 5.411964,
+     "HML": -3.737351,
+     "RMW": -6.239243,
+     "CMA": -2.319111,
+     "MOM": 5.581135
+    }
+   }
+  },
+  "pair_beta": {
+   "all": {
+    "start": "2017-04-28",
+    "end": "2026-08-31",
+    "n": 2348,
+    "r2": 0.1072,
+    "alpha_ann": 0.11738,
+    "alpha_t": 0.613193,
+    "betas": {
+     "MKT": -0.350841,
+     "SMB": 0.964215,
+     "HML": -0.513359,
+     "RMW": -0.890471,
+     "CMA": -0.647974,
+     "MOM": 0.270876
+    },
+    "t": {
+     "MKT": -2.870725,
+     "SMB": 5.249183,
+     "HML": -3.510889,
+     "RMW": -4.205449,
+     "CMA": -2.389682,
+     "MOM": 3.004888
+    }
+   },
+   "since_2022": {
+    "start": "2022-01-03",
+    "end": "2026-08-31",
+    "n": 1169,
+    "r2": 0.124275,
+    "alpha_ann": 0.052153,
+    "alpha_t": 0.166412,
+    "betas": {
+     "MKT": -0.733177,
+     "SMB": 1.01378,
+     "HML": -0.942884,
+     "RMW": -1.105004,
+     "CMA": -0.917053,
+     "MOM": 0.595922
+    },
+    "t": {
+     "MKT": -3.023727,
+     "SMB": 2.915942,
+     "HML": -3.857335,
+     "RMW": -3.818081,
+     "CMA": -2.695124,
+     "MOM": 3.788415
+    }
+   }
+  }
+ },
+ "catalysts": {
+  "budget": {
+   "n": 9,
+   "n_abnormal": 9,
+   "mean": -0.011129,
+   "median": -0.005037,
+   "positive": 3
+  },
+  "drone_policy": {
+   "n": 9,
+   "n_abnormal": 8,
+   "mean": 0.074507,
+   "median": 0.041486,
+   "positive": 7
+  },
+  "funding": {
+   "n": 1,
+   "n_abnormal": 1,
+   "mean": 0.226689,
+   "median": 0.226689,
+   "positive": 1
+  },
+  "trade": {
+   "n": 1,
+   "n_abnormal": 1,
+   "mean": -0.023094,
+   "median": -0.023094,
+   "positive": 0
+  },
+  "war": {
+   "n": 1,
+   "n_abnormal": 1,
+   "mean": 0.134699,
+   "median": 0.134699,
+   "positive": 1
+  }
+ },
+ "valuation": {
+  "AVAV": {
+   "now": 3.2156,
+   "date": "2026-10-20",
+   "median_2019_24": 5.0613,
+   "ev_to_guided_ebitda": 20.4435
+  },
+  "KTOS": {
+   "now": 3.86,
+   "date": "2026-10-20",
+   "median_2019_24": 2.8805,
+   "ev_to_guided_ebitda": 33.6781
+  },
+  "drones_median": {
+   "now": 4.4188,
+   "median_2019_24": 3.9055,
+   "high_2026": 53.9973,
+   "high_2026_month": "2026-01"
+  },
+  "primes_median": {
+   "now": 1.9324,
+   "median_2019_24": 1.9775,
+   "high_2026": 2.4118,
+   "high_2026_month": "2026-02"
+  }
+ },
+ "falls": {
+  "AVAV": {
+   "name": "AeroVironment",
+   "fall": -0.7006,
+   "high": "2026-01-16"
+  },
+  "KTOS": {
+   "name": "Kratos",
+   "fall": -0.702,
+   "high": "2026-01-16"
+  },
+  "ONDS": {
+   "name": "Ondas",
+   "fall": -0.5646,
+   "high": "2026-01-08"
+  },
+  "RCAT": {
+   "name": "Red Cat",
+   "fall": -0.7396,
+   "high": "2026-01-22"
+  },
+  "RDW": {
+   "name": "Redwire",
+   "fall": -0.6795,
+   "high": "2026-05-28"
+  },
+  "UMAC": {
+   "name": "Unusual Machines",
+   "fall": -0.5191,
+   "high": "2026-08-14"
+  },
+  "BA": {
+   "name": "Boeing",
+   "fall": -0.2446,
+   "high": "2026-01-23"
+  },
+  "GD": {
+   "name": "General Dynamics",
+   "fall": -0.1259,
+   "high": "2026-08-10"
+  },
+  "HII": {
+   "name": "Huntington Ingalls",
+   "fall": -0.3946,
+   "high": "2026-03-02"
+  },
+  "LMT": {
+   "name": "Lockheed Martin",
+   "fall": -0.1788,
+   "high": "2026-03-02"
+  },
+  "NOC": {
+   "name": "Northrop Grumman",
+   "fall": -0.2985,
+   "high": "2026-03-02"
+  },
+  "RTX": {
+   "name": "RTX",
+   "fall": -0.1426,
+   "high": "2026-08-18"
+  },
+  "basket_drones": {
+   "fall": -0.5324,
+   "high": "2026-05-28"
+  },
+  "basket_primes": {
+   "fall": -0.1941,
+   "high": "2026-03-02"
+  },
+  "basket_pair": {
+   "fall": -0.526,
+   "high": "2026-06-02"
+  }
+ },
+ "background": {
+  "avav_impairment": {
+   "value": 240.7,
+   "unit": "$m",
+   "published": "2026-06-16",
+   "source": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926076140/avav-20260616x8k.htm"
+  },
+  "avav_axs_revenue_q1fy27": {
+   "value": 346.0,
+   "unit": "$m",
+   "published": "2026-09-09",
+   "source": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106304/avav-20260909xex99d1.htm"
+  },
+  "avav_axs_revenue_q1fy26": {
+   "value": 285.3,
+   "unit": "$m",
+   "published": "2026-09-09",
+   "source": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106304/avav-20260909xex99d1.htm"
+  },
+  "avav_fy27_ebitda_lo": {
+   "value": 305.0,
+   "unit": "$m",
+   "published": "2026-09-09",
+   "source": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106304/avav-20260909xex99d1.htm"
+  },
+  "avav_fy27_ebitda_hi": {
+   "value": 325.0,
+   "unit": "$m",
+   "published": "2026-09-09",
+   "source": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106304/avav-20260909xex99d1.htm"
+  },
+  "ktos_2026_ebitda_lo": {
+   "value": 173.0,
+   "unit": "$m",
+   "published": "2026-08-04",
+   "source": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000075/ktos202606288kexhibit991.htm"
+  },
+  "ktos_2026_ebitda_hi": {
+   "value": 176.0,
+   "unit": "$m",
+   "published": "2026-08-04",
+   "source": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000075/ktos202606288kexhibit991.htm"
+  },
+  "ktos_fcf_use_lo": {
+   "value": 85.0,
+   "unit": "$m",
+   "published": "2026-08-04",
+   "source": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000075/ktos202606288kexhibit991.htm"
+  },
+  "ktos_fcf_use_hi": {
+   "value": 105.0,
+   "unit": "$m",
+   "published": "2026-08-04",
+   "source": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000075/ktos202606288kexhibit991.htm"
+  },
+  "ktos_offering_feb2026": {
+   "value": 1.38,
+   "unit": "$bn",
+   "published": "2026-03-02",
+   "source": "https://www.sec.gov/Archives/edgar/data/1069258/000106925826000024/ktos-20260226.htm"
+  },
+  "ddp_gauntlet2_vendors": {
+   "value": 19.0,
+   "unit": "vendors",
+   "published": null,
+   "source": "https://dronedominance.mil/js/vendor-data.js"
+  },
+  "request_mandatory_fy2027": {
+   "value": 350.0,
+   "unit": "$bn",
+   "published": "2026-04-03",
+   "source": "https://www.whitehouse.gov/wp-content/uploads/2026/04/fiscal-year-2027-topline-fact-sheet.pdf"
+  },
+  "reconciliation_cap_armed_services": {
+   "value": 60.0,
+   "unit": "$bn",
+   "published": null,
+   "source": "https://www.govinfo.gov/content/pkg/CRPT-119hrpt754/html/CRPT-119hrpt754.htm"
+  },
+  "cr_end": {
+   "value": "2026-12-11",
+   "unit": "date",
+   "published": null,
+   "source": "https://www.govinfo.gov/content/pkg/BILLS-119hr6500enr/html/BILLS-119hr6500enr.htm"
+  },
+  "avav_axs_growth": {
+   "value": 0.2128,
+   "unit": "share",
+   "published": null,
+   "source": "https://www.sec.gov/Archives/edgar/data/1368622/000110465926106304/avav-20260909xex99d1.htm"
+  }
+ }
+}

@@ -1,0 +1,25 @@
+company,symbol,from,to,note
+Lockheed Martin,LMT,2016-01-01,,
+General Dynamics,GD,2016-01-01,,
+Northrop Grumman,NOC,2016-01-01,,
+Boeing,BA,2016-01-01,,
+Huntington Ingalls,HII,2016-01-01,,
+Raytheon,RTN,2016-01-01,2020-04-03,Raytheon Company merged with United Technologies (renamed RTX) on 3 Apr 2020
+Raytheon,RTX,2020-04-03,,
+United Technologies,UTX,2016-01-01,2020-04-03,United Technologies became RTX on 3 Apr 2020 (same CIK)
+United Technologies,RTX,2020-04-03,,
+RTX,RTX,2020-04-03,,
+L3Harris,LHX,2019-06-29,,L3 and Harris merged on 29 Jun 2019; Harris (HRS) was renamed L3Harris (LHX)
+Harris,HRS,2016-01-01,2019-06-29,
+Harris,LHX,2019-06-29,,
+L3 Technologies,LLL,2016-01-01,2019-06-29,The LLL symbol was later reused by another company
+L3 Technologies,LHX,2019-06-29,,
+Rockwell Collins,COL,2016-01-01,2018-11-27,Acquired by United Technologies on 26 Nov 2018
+Orbital ATK,OA,2016-01-01,2018-06-07,Acquired by Northrop Grumman on 6 Jun 2018
+Aerojet Rocketdyne,AJRD,2016-01-01,2023-07-28,Acquired by L3Harris on 28 Jul 2023
+General Electric,GE,2016-01-01,,
+Honeywell,HON,2016-01-01,,
+Textron,TXT,2016-01-01,,
+Oshkosh,OSK,2016-01-01,,
+BAE Systems (London-listed),,,,Not US-listed
+General Atomics (private),,,,Private

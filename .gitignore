@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Downloads: re-fetched at run time.
+data/cache/
+# Alpaca's prices and the series built from them. Alpaca's data is for personal use, and Alpaca agreed to the
+# web page charting these series with no data to download, so they stay local. The committed output keeps
+# only summary figures computed from them.
+output/daily-series.csv
+output/events.csv
+output/rolling-betas.csv
+output/valuation-by-name.csv
+output/valuation-by-basket.csv
+output/site/shares.json

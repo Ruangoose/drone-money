@@ -1,0 +1,888 @@
+{
+ "fys": [
+  2016,
+  2017,
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023,
+  2024,
+  2025,
+  2026
+ ],
+ "last_full_fy": 2025,
+ "partial_fy": 2026,
+ "code1550": {
+  "total": {
+   "2016": 2157330420.0,
+   "2017": 2211881454.0,
+   "2018": 1962412761.0,
+   "2019": 2250292632.0,
+   "2020": 1421182582.0,
+   "2021": 1167904577.0,
+   "2022": 1626349442.0,
+   "2023": 1815648633.0,
+   "2024": 2142954477.0,
+   "2025": 1858129141.0,
+   "2026": 2019629808.0
+  },
+  "share": {
+   "primes": {
+    "2016": 0.470853,
+    "2017": 0.450917,
+    "2018": 0.529476,
+    "2019": 0.350048,
+    "2020": 0.51275,
+    "2021": 0.289511,
+    "2022": 0.348497,
+    "2023": 0.180363,
+    "2024": 0.291739,
+    "2025": 0.251685,
+    "2026": 0.049751
+   },
+   "listed": {
+    "2016": 0.020116,
+    "2017": 0.035921,
+    "2018": 0.027559,
+    "2019": 0.044319,
+    "2020": 0.048151,
+    "2021": 0.130902,
+    "2022": 0.115938,
+    "2023": 0.259118,
+    "2024": 0.1104,
+    "2025": 0.130423,
+    "2026": 0.207037
+   },
+   "private": {
+    "2016": 0.417137,
+    "2017": 0.462449,
+    "2018": 0.4151,
+    "2019": 0.514211,
+    "2020": 0.388514,
+    "2021": 0.533158,
+    "2022": 0.427974,
+    "2023": 0.241663,
+    "2024": 0.486299,
+    "2025": 0.466046,
+    "2026": 0.443855
+   },
+   "other": {
+    "2016": 0.091895,
+    "2017": 0.050713,
+    "2018": 0.027865,
+    "2019": 0.091422,
+    "2020": 0.050585,
+    "2021": 0.046429,
+    "2022": 0.107592,
+    "2023": 0.318857,
+    "2024": 0.111563,
+    "2025": 0.151846,
+    "2026": 0.299357
+   },
+   "AeroVironment": {
+    "2016": 0.008861,
+    "2017": 0.0069,
+    "2018": 0.015107,
+    "2019": 0.032594,
+    "2020": 0.02759,
+    "2021": 0.066971,
+    "2022": 0.062339,
+    "2023": 0.183198,
+    "2024": 0.028119,
+    "2025": 0.040688,
+    "2026": 0.151415
+   },
+   "Kratos": {
+    "2016": 0.011255,
+    "2017": 0.029021,
+    "2018": 0.012452,
+    "2019": 0.011725,
+    "2020": 0.020561,
+    "2021": 0.063795,
+    "2022": 0.053599,
+    "2023": 0.075723,
+    "2024": 0.082198,
+    "2025": 0.088263,
+    "2026": 0.046944
+   }
+  },
+  "amount": {
+   "primes": {
+    "2016": 1015784877.0,
+    "2017": 997375573.0,
+    "2018": 1039050042.0,
+    "2019": 787710370.0,
+    "2020": 728711129.0,
+    "2021": 338121781.0,
+    "2022": 566777722.0,
+    "2023": 327475122.0,
+    "2024": 625183086.0,
+    "2025": 467662880.0,
+    "2026": 100479123.0
+   },
+   "listed": {
+    "2016": 43396164.0,
+    "2017": 79452000.0,
+    "2018": 54082139.0,
+    "2019": 99730900.0,
+    "2020": 68431348.0,
+    "2021": 152880638.0,
+    "2022": 188555584.0,
+    "2023": 470466900.0,
+    "2024": 236581545.0,
+    "2025": 242342878.0,
+    "2026": 418137849.0
+   },
+   "private": {
+    "2016": 899901731.0,
+    "2017": 1022882489.0,
+    "2018": 814597305.0,
+    "2019": 1157124839.0,
+    "2020": 552149736.0,
+    "2021": 622677258.0,
+    "2022": 696034606.0,
+    "2023": 438774585.0,
+    "2024": 1042116225.0,
+    "2025": 865973674.0,
+    "2026": 896421797.0
+   },
+   "other": {
+    "2016": 198247647.0,
+    "2017": 112171392.0,
+    "2018": 54683275.0,
+    "2019": 205726523.0,
+    "2020": 71890368.0,
+    "2021": 54224900.0,
+    "2022": 174981530.0,
+    "2023": 578932026.0,
+    "2024": 239073620.0,
+    "2025": 282149709.0,
+    "2026": 604591039.0
+   }
+  },
+  "dod_total": {
+   "2016": 298217529543.0,
+   "2017": 321415402999.0,
+   "2018": 359315604155.0,
+   "2019": 383551156348.0,
+   "2020": 422451386727.0,
+   "2021": 386934222887.0,
+   "2022": 414364807941.0,
+   "2023": 456951993425.0,
+   "2024": 445758468362.0,
+   "2025": 491774276152.0,
+   "2026": 399893446367.0
+  },
+  "share_of_dod": {
+   "2016": 0.007234,
+   "2017": 0.006882,
+   "2018": 0.005462,
+   "2019": 0.005867,
+   "2020": 0.003364,
+   "2021": 0.003018,
+   "2022": 0.003925,
+   "2023": 0.003973,
+   "2024": 0.004807,
+   "2025": 0.003778,
+   "2026": 0.00505
+  },
+  "share_of_dod_range": {
+   "min": {
+    "fy": 2021,
+    "value": 0.003018
+   },
+   "max": {
+    "fy": 2016,
+    "value": 0.007234
+   }
+  },
+  "top": {
+   "2016": [
+    {
+     "company": "General Atomics",
+     "group": "private",
+     "amount": 899901731.0,
+     "share": 0.417137
+    },
+    {
+     "company": "Northrop Grumman",
+     "group": "primes",
+     "amount": 638077823.0,
+     "share": 0.295772
+    },
+    {
+     "company": "Boeing",
+     "group": "primes",
+     "amount": 282762502.0,
+     "share": 0.131071
+    },
+    {
+     "company": "Textron",
+     "group": "other",
+     "amount": 170115727.0,
+     "share": 0.078855
+    },
+    {
+     "company": "Raytheon",
+     "group": "primes",
+     "amount": 95003528.0,
+     "share": 0.044038
+    },
+    {
+     "company": "Kratos",
+     "group": "listed",
+     "amount": 24280766.0,
+     "share": 0.011255
+    },
+    {
+     "company": "AeroVironment",
+     "group": "listed",
+     "amount": 19115398.0,
+     "share": 0.008861
+    },
+    {
+     "company": "Navmar Applied Sciences Corp",
+     "group": "other",
+     "amount": 14828372.0,
+     "share": 0.006873
+    }
+   ],
+   "2017": [
+    {
+     "company": "General Atomics",
+     "group": "private",
+     "amount": 1022882489.0,
+     "share": 0.462449
+    },
+    {
+     "company": "Northrop Grumman",
+     "group": "primes",
+     "amount": 661160885.0,
+     "share": 0.298913
+    },
+    {
+     "company": "Boeing",
+     "group": "primes",
+     "amount": 300229325.0,
+     "share": 0.135735
+    },
+    {
+     "company": "Textron",
+     "group": "other",
+     "amount": 90754598.0,
+     "share": 0.04103
+    },
+    {
+     "company": "Kratos",
+     "group": "listed",
+     "amount": 64189920.0,
+     "share": 0.029021
+    },
+    {
+     "company": "L3 Technologies",
+     "group": "primes",
+     "amount": 34882036.0,
+     "share": 0.01577
+    },
+    {
+     "company": "AeroVironment",
+     "group": "listed",
+     "amount": 15262080.0,
+     "share": 0.0069
+    },
+    {
+     "company": "Sierra Technical Services, Inc.",
+     "group": "other",
+     "amount": 7191986.0,
+     "share": 0.003252
+    }
+   ],
+   "2018": [
+    {
+     "company": "General Atomics",
+     "group": "private",
+     "amount": 814597305.0,
+     "share": 0.4151
+    },
+    {
+     "company": "Northrop Grumman",
+     "group": "primes",
+     "amount": 632019580.0,
+     "share": 0.322063
+    },
+    {
+     "company": "Boeing",
+     "group": "primes",
+     "amount": 371864539.0,
+     "share": 0.189494
+    },
+    {
+     "company": "AeroVironment",
+     "group": "listed",
+     "amount": 29645968.0,
+     "share": 0.015107
+    },
+    {
+     "company": "Kratos",
+     "group": "listed",
+     "amount": 24436171.0,
+     "share": 0.012452
+    },
+    {
+     "company": "Textron",
+     "group": "other",
+     "amount": 23952235.0,
+     "share": 0.012206
+    },
+    {
+     "company": "L3 Technologies",
+     "group": "primes",
+     "amount": 18085040.0,
+     "share": 0.009216
+    },
+    {
+     "company": "Lockheed Martin",
+     "group": "primes",
+     "amount": 13557580.0,
+     "share": 0.006909
+    }
+   ],
+   "2019": [
+    {
+     "company": "General Atomics",
+     "group": "private",
+     "amount": 1157124839.0,
+     "share": 0.514211
+    },
+    {
+     "company": "Northrop Grumman",
+     "group": "primes",
+     "amount": 392269583.0,
+     "share": 0.174319
+    },
+    {
+     "company": "Boeing",
+     "group": "primes",
+     "amount": 343847061.0,
+     "share": 0.152801
+    },
+    {
+     "company": "General Electric",
+     "group": "other",
+     "amount": 163854478.0,
+     "share": 0.072815
+    },
+    {
+     "company": "AeroVironment",
+     "group": "listed",
+     "amount": 73346501.0,
+     "share": 0.032594
+    },
+    {
+     "company": "L3Harris",
+     "group": "primes",
+     "amount": 30884202.0,
+     "share": 0.013725
+    },
+    {
+     "company": "Kratos",
+     "group": "listed",
+     "amount": 26384399.0,
+     "share": 0.011725
+    },
+    {
+     "company": "BAE Systems",
+     "group": "other",
+     "amount": 19330488.0,
+     "share": 0.00859
+    }
+   ],
+   "2020": [
+    {
+     "company": "Northrop Grumman",
+     "group": "primes",
+     "amount": 610390543.0,
+     "share": 0.429495
+    },
+    {
+     "company": "General Atomics",
+     "group": "private",
+     "amount": 552142239.0,
+     "share": 0.388509
+    },
+    {
+     "company": "Boeing",
+     "group": "primes",
+     "amount": 95767310.0,
+     "share": 0.067386
+    },
+    {
+     "company": "AeroVironment",
+     "group": "listed",
+     "amount": 39210184.0,
+     "share": 0.02759
+    },
+    {
+     "company": "Textron",
+     "group": "other",
+     "amount": 29483306.0,
+     "share": 0.020746
+    },
+    {
+     "company": "Kratos",
+     "group": "listed",
+     "amount": 29221165.0,
+     "share": 0.020561
+    },
+    {
+     "company": "Griffon Aerospace, Inc.",
+     "group": "other",
+     "amount": 21827268.0,
+     "share": 0.015359
+    },
+    {
+     "company": "RTX",
+     "group": "primes",
+     "amount": 21001467.0,
+     "share": 0.014777
+    }
+   ],
+   "2021": [
+    {
+     "company": "General Atomics",
+     "group": "private",
+     "amount": 622677258.0,
+     "share": 0.533158
+    },
+    {
+     "company": "Northrop Grumman",
+     "group": "primes",
+     "amount": 249975739.0,
+     "share": 0.214038
+    },
+    {
+     "company": "AeroVironment",
+     "group": "listed",
+     "amount": 78216249.0,
+     "share": 0.066971
+    },
+    {
+     "company": "Boeing",
+     "group": "primes",
+     "amount": 77545631.0,
+     "share": 0.066397
+    },
+    {
+     "company": "Kratos",
+     "group": "listed",
+     "amount": 74506672.0,
+     "share": 0.063795
+    },
+    {
+     "company": "Griffon Aerospace, Inc.",
+     "group": "other",
+     "amount": 18436833.0,
+     "share": 0.015786
+    },
+    {
+     "company": "Strata-G Solutions, Llc",
+     "group": "other",
+     "amount": 8925968.0,
+     "share": 0.007643
+    },
+    {
+     "company": "BAE Systems",
+     "group": "other",
+     "amount": 8427975.0,
+     "share": 0.007216
+    }
+   ],
+   "2022": [
+    {
+     "company": "General Atomics",
+     "group": "private",
+     "amount": 695956413.0,
+     "share": 0.427926
+    },
+    {
+     "company": "Northrop Grumman",
+     "group": "primes",
+     "amount": 431922318.0,
+     "share": 0.265578
+    },
+    {
+     "company": "Boeing",
+     "group": "primes",
+     "amount": 118043612.0,
+     "share": 0.072582
+    },
+    {
+     "company": "Aevex Aerospace, Llc",
+     "group": "other",
+     "amount": 112733162.0,
+     "share": 0.069317
+    },
+    {
+     "company": "AeroVironment",
+     "group": "listed",
+     "amount": 101385144.0,
+     "share": 0.062339
+    },
+    {
+     "company": "Kratos",
+     "group": "listed",
+     "amount": 87170440.0,
+     "share": 0.053599
+    },
+    {
+     "company": "Griffon Aerospace, Inc.",
+     "group": "other",
+     "amount": 25175048.0,
+     "share": 0.015479
+    },
+    {
+     "company": "L3Harris",
+     "group": "primes",
+     "amount": 10173119.0,
+     "share": 0.006255
+    }
+   ],
+   "2023": [
+    {
+     "company": "Aevex Aerospace, Llc",
+     "group": "other",
+     "amount": 445352235.0,
+     "share": 0.245285
+    },
+    {
+     "company": "General Atomics",
+     "group": "private",
+     "amount": 438634673.0,
+     "share": 0.241586
+    },
+    {
+     "company": "AeroVironment",
+     "group": "listed",
+     "amount": 332623758.0,
+     "share": 0.183198
+    },
+    {
+     "company": "Northrop Grumman",
+     "group": "primes",
+     "amount": 255865041.0,
+     "share": 0.140922
+    },
+    {
+     "company": "Kratos",
+     "group": "listed",
+     "amount": 137486060.0,
+     "share": 0.075723
+    },
+    {
+     "company": "Boeing",
+     "group": "primes",
+     "amount": 67436921.0,
+     "share": 0.037142
+    },
+    {
+     "company": "Technology Service Corp",
+     "group": "other",
+     "amount": 47782182.0,
+     "share": 0.026317
+    },
+    {
+     "company": "Strata-G Solutions, Llc",
+     "group": "other",
+     "amount": 18062074.0,
+     "share": 0.009948
+    }
+   ],
+   "2024": [
+    {
+     "company": "General Atomics",
+     "group": "private",
+     "amount": 1040510598.0,
+     "share": 0.48555
+    },
+    {
+     "company": "Northrop Grumman",
+     "group": "primes",
+     "amount": 609388100.0,
+     "share": 0.284368
+    },
+    {
+     "company": "Kratos",
+     "group": "listed",
+     "amount": 176145812.0,
+     "share": 0.082198
+    },
+    {
+     "company": "Aevex Aerospace, Llc",
+     "group": "other",
+     "amount": 136017712.0,
+     "share": 0.063472
+    },
+    {
+     "company": "AeroVironment",
+     "group": "listed",
+     "amount": 60257438.0,
+     "share": 0.028119
+    },
+    {
+     "company": "Itt Corporation",
+     "group": "other",
+     "amount": 22763926.0,
+     "share": 0.010623
+    },
+    {
+     "company": "The Survice Engineering Company Llc",
+     "group": "other",
+     "amount": 18739760.0,
+     "share": 0.008745
+    },
+    {
+     "company": "Leidos",
+     "group": "other",
+     "amount": 17164531.0,
+     "share": 0.00801
+    }
+   ],
+   "2025": [
+    {
+     "company": "General Atomics",
+     "group": "private",
+     "amount": 743737546.0,
+     "share": 0.400261
+    },
+    {
+     "company": "Northrop Grumman",
+     "group": "primes",
+     "amount": 400514575.0,
+     "share": 0.215547
+    },
+    {
+     "company": "Kratos",
+     "group": "listed",
+     "amount": 164004440.0,
+     "share": 0.088263
+    },
+    {
+     "company": "Leidos",
+     "group": "other",
+     "amount": 160112572.0,
+     "share": 0.086169
+    },
+    {
+     "company": "Anduril",
+     "group": "private",
+     "amount": 113419917.0,
+     "share": 0.06104
+    },
+    {
+     "company": "AeroVironment",
+     "group": "listed",
+     "amount": 75604354.0,
+     "share": 0.040688
+    },
+    {
+     "company": "Boeing",
+     "group": "primes",
+     "amount": 63533407.0,
+     "share": 0.034192
+    },
+    {
+     "company": "Platform Systems, Incorporated",
+     "group": "other",
+     "amount": 32018335.0,
+     "share": 0.017231
+    }
+   ],
+   "2026": [
+    {
+     "company": "General Atomics",
+     "group": "private",
+     "amount": 855372208.0,
+     "share": 0.423529
+    },
+    {
+     "company": "AeroVironment",
+     "group": "listed",
+     "amount": 305801713.0,
+     "share": 0.151415
+    },
+    {
+     "company": "Griffon Aerospace, Inc.",
+     "group": "other",
+     "amount": 206611349.0,
+     "share": 0.102302
+    },
+    {
+     "company": "Leidos",
+     "group": "other",
+     "amount": 203547376.0,
+     "share": 0.100784
+    },
+    {
+     "company": "Kratos",
+     "group": "listed",
+     "amount": 94809694.0,
+     "share": 0.046944
+    },
+    {
+     "company": "Northrop Grumman",
+     "group": "primes",
+     "amount": 83924822.0,
+     "share": 0.041555
+    },
+    {
+     "company": "BAE Systems",
+     "group": "other",
+     "amount": 38976662.0,
+     "share": 0.019299
+    },
+    {
+     "company": "Anduril",
+     "group": "private",
+     "amount": 34760482.0,
+     "share": 0.017211
+    }
+   ]
+  }
+ },
+ "named": {
+  "total": {
+   "2016": 2186597441.0,
+   "2017": 2434801664.0,
+   "2018": 2327724988.0,
+   "2019": 2449443406.0,
+   "2020": 1547851491.0,
+   "2021": 1310244706.0,
+   "2022": 2001800674.0,
+   "2023": 2384869403.0,
+   "2024": 2596637819.0,
+   "2025": 2895556619.0,
+   "2026": 2570787648.0
+  },
+  "share": {
+   "primes": {
+    "2016": 0.46455,
+    "2017": 0.478201,
+    "2018": 0.560847,
+    "2019": 0.372117,
+    "2020": 0.470789,
+    "2021": 0.281153,
+    "2022": 0.409972,
+    "2023": 0.310017,
+    "2024": 0.342176,
+    "2025": 0.278912,
+    "2026": 0.064953
+   },
+   "listed": {
+    "2016": 0.03105,
+    "2017": 0.041651,
+    "2018": 0.02432,
+    "2019": 0.041216,
+    "2020": 0.093248,
+    "2021": 0.12638,
+    "2022": 0.094193,
+    "2023": 0.197272,
+    "2024": 0.09455,
+    "2025": 0.223292,
+    "2026": 0.279953
+   },
+   "private": {
+    "2016": 0.411553,
+    "2017": 0.420109,
+    "2018": 0.349954,
+    "2019": 0.472403,
+    "2020": 0.357928,
+    "2021": 0.475237,
+    "2022": 0.352032,
+    "2023": 0.190014,
+    "2024": 0.403859,
+    "2025": 0.318275,
+    "2026": 0.361505
+   },
+   "other": {
+    "2016": 0.092846,
+    "2017": 0.060039,
+    "2018": 0.064878,
+    "2019": 0.114264,
+    "2020": 0.078035,
+    "2021": 0.117229,
+    "2022": 0.143803,
+    "2023": 0.302697,
+    "2024": 0.159415,
+    "2025": 0.179522,
+    "2026": 0.293589
+   },
+   "AeroVironment": {
+    "2016": 0.019945,
+    "2017": 0.015288,
+    "2018": 0.013822,
+    "2019": 0.030444,
+    "2020": 0.07437,
+    "2021": 0.069395,
+    "2022": 0.050647,
+    "2023": 0.139473,
+    "2024": 0.026645,
+    "2025": 0.165708,
+    "2026": 0.236256
+   },
+   "Kratos": {
+    "2016": 0.011104,
+    "2017": 0.026364,
+    "2018": 0.010498,
+    "2019": 0.010772,
+    "2020": 0.018879,
+    "2021": 0.056865,
+    "2022": 0.043546,
+    "2023": 0.057649,
+    "2024": 0.067836,
+    "2025": 0.05664,
+    "2026": 0.03688
+   }
+  },
+  "actions": {
+   "count": 1081,
+   "total": 4072599932.0,
+   "kinds": {
+    "counter_drone": {
+     "total": 2381875784.0,
+     "actions": 546,
+     "by_group": {
+      "listed": 699922.0,
+      "other": 1111325802.0,
+      "primes": 1187805047.0,
+      "private": 82045013.0
+     },
+     "AeroVironment": 699922.0,
+     "AeroVironment_share": 0.000294
+    },
+    "coyote": {
+     "total": 734151366.0,
+     "actions": 8,
+     "by_group": {
+      "primes": 734151366.0
+     },
+     "AeroVironment": 0.0,
+     "AeroVironment_share": 0.0
+    },
+    "loitering": {
+     "total": 956572782.0,
+     "actions": 527,
+     "by_group": {
+      "listed": 852825491.0,
+      "other": 64761318.0,
+      "primes": 1015062.0,
+      "private": 37970911.0
+     },
+     "AeroVironment": 852825491.0,
+     "AeroVironment_share": 0.891543
+    }
+   }
+  }
+ }
+}
