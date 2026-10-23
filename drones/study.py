@@ -38,6 +38,16 @@ def load_prices(symbols):
     return adj, raw
 
 
+def carried(syms, adj, raw):
+    """What holders of the merged names earned after they stopped trading (config/corporate-actions.csv). Names
+    received that aren't basket members (Carrier, Otis) are fetched on their own and kept out of the price
+    tables."""
+    acts = bk.corporate_actions(ROOT / "config" / "corporate-actions.csv")
+    new = sorted(set(acts.new) - set(syms))
+    adj_n, raw_n = load_prices(new)
+    return bk.carried_returns(prices.wide(pd.concat([adj, adj_n])), prices.wide(pd.concat([raw, raw_n])), acts)
+
+
 def run():
     OUT.mkdir(exist_ok=True)
     mem = membership()
@@ -47,17 +57,18 @@ def run():
     closes = prices.wide(adj)
     rets = bk.daily_returns(closes)
     liq = liquidity(raw).reindex(rets.index).fillna(False)
+    car = carried(syms, adj, raw)
     f = factors.daily()
 
-    drones, dlog = bk.basket_returns(rets, mem, "drones", liquid=liq)
-    primes, plog = bk.basket_returns(rets, mem, "primes", liquid=liq)
+    drones, dlog = bk.basket_returns(rets, mem, "drones", liquid=liq, carried=car)
+    primes, plog = bk.basket_returns(rets, mem, "primes", liquid=liq, carried=car)
     pd.concat([dlog, plog]).to_csv(OUT / "rebalances.csv", index=False)
     # Sensitivity: market-value weights, so one small name's spike can't drive the basket.
     rawc = prices.wide(raw)
     caps = pd.DataFrame({s: valuation.monthly(s, CIKS[s], rawc[s]).set_index("date")["mcap"]
                          for s in syms if s in CIKS and s in rawc})
-    drones_cw, _ = bk.basket_returns(rets, mem, "drones", liquid=liq, caps=caps)
-    primes_cw, _ = bk.basket_returns(rets, mem, "primes", liquid=liq, caps=caps)
+    drones_cw, _ = bk.basket_returns(rets, mem, "drones", liquid=liq, caps=caps, carried=car)
+    primes_cw, _ = bk.basket_returns(rets, mem, "primes", liquid=liq, caps=caps, carried=car)
     mkt = f["MKT"] + f["RF"]
     pair_ew = (drones - primes).rename("pair_dollar")
     pair_cw = (drones_cw - primes_cw).rename("pair_capweighted")

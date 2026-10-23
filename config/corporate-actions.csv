@@ -1,0 +1,5 @@
+date,old,new,shares,note,source
+2020-04-03,UTX,RTX,1,"United Technologies spun off Carrier and Otis to holders of record on 19 Mar 2020, merged with Raytheon and was renamed RTX, all on 3 Apr 2020",https://www.sec.gov/Archives/edgar/data/101829/000114036120008397/nc10010681x2_8k.htm
+2020-04-03,UTX,CARR,1,One Carrier share for each United Technologies share,https://www.sec.gov/Archives/edgar/data/101829/000114036120008397/nc10010681x2_8k.htm
+2020-04-03,UTX,OTIS,0.5,Half an Otis share for each United Technologies share,https://www.sec.gov/Archives/edgar/data/101829/000114036120008397/nc10010681x2_8k.htm
+2020-04-03,RTN,RTX,2.3348,Each Raytheon share became 2.3348 RTX shares (the merger's exchange ratio),https://www.sec.gov/Archives/edgar/data/101829/000114036120008397/nc10010681x2_8k.htm

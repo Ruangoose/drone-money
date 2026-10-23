@@ -21,6 +21,9 @@ The write-up: https://ruangoosen.co.za/projects/drones-vs-primes/
     sets the next calendar year's basket. Recipients are grouped by their own names, with mergers applied by
     year (`drones/companies.py`), because USAspending's parent links put old contracts under today's parents.
   - Equal weights, rebalanced monthly. Market-value weights are a check.
+  - A held name that stops trading in a merger or spin-off earns what its holders received until the next
+    rebalance (`config/corporate-actions.csv`). That covers Raytheon and United Technologies, which stopped on
+    3 April 2020: their holders got RTX, Carrier and Otis, and RTX joins the primes on 1 May.
 - **History:** the baskets and the dollar-neutral pair (long drones, short primes) by period; factor loadings
   on Kenneth French's five factors and momentum, with Newey-West standard errors; the pair's moves around 21
   policy, budget and war dates (`config/events.csv`, each with its primary source), against what its factor

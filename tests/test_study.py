@@ -31,6 +31,40 @@ def test_a_name_joins_at_the_first_rebalance_after_its_start():
     assert log.set_index("date").loc["2024-02-01", "names"] == "A,B"
 
 
+def test_merged_names_earn_what_holders_received_until_the_next_rebalance():
+    """April 2020: United Technologies (UTX) and Raytheon (RTN) stopped trading on 3 April. A UTX share became
+    one RTX, one Carrier and half an Otis; an RTN share became 2.3348 RTX. RTX joins the basket on 1 May. Made-up
+    prices, with RTX's adjusted series carrying UTX's history before 3 April, as Alpaca's does."""
+    acts = baskets.corporate_actions(ROOT / "config" / "corporate-actions.csv")
+    a = acts[acts.date == "2020-04-03"]
+    assert dict(zip(zip(a.old, a.new), a.shares)) == {("UTX", "RTX"): 1, ("UTX", "CARR"): 1, ("UTX", "OTIS"): 0.5,
+                                                      ("RTN", "RTX"): 2.3348}
+
+    days = pd.bdate_range("2020-03-31", "2020-05-05")
+    after = days >= "2020-04-03"
+    k = np.cumsum(after) - 1  # trading days since 3 April
+    raw = pd.DataFrame({"UTX": np.where(after, np.nan, 100.0), "RTN": np.where(after, np.nan, 140.0),
+                        "RTX": np.where(after, 50.0 * 1.02 ** k, 100.0), "CARR": np.where(after, 20.0, np.nan),
+                        "OTIS": np.where(after, 40.0, np.nan)}, index=days)
+    closes = raw * np.where(after, 0.9, 1.0)[:, None]  # adjusted: scaled by later dividends, but not across the day
+    rets = baskets.daily_returns(closes)
+    mem = pd.DataFrame({"symbol": ["UTX", "RTN", "RTX"], "basket": "primes",
+                        "start": pd.to_datetime(["2016-01-01", "2016-01-01", "2020-04-03"]),
+                        "end": pd.to_datetime(["2020-04-03", "2020-04-03", None])})
+    car = baskets.carried_returns(closes, raw, acts)
+    r, log = baskets.basket_returns(rets, mem, "primes", carried=car)
+
+    # Day one: what holders got at the closes against the last close.
+    assert r.loc["2020-04-03"] == pytest.approx(0.5 * ((50 + 20 + 0.5 * 40) / 100 - 1) + 0.5 * (2.3348 * 50 / 140 - 1))
+    # April as a whole: half the money in each holding, bought on 31 March and held to 30 April.
+    rtx = 50.0 * 1.02 ** k[days.get_loc("2020-04-30")]
+    april = (1 + r.loc["2020-04-01":"2020-04-30"]).prod()
+    assert april == pytest.approx(0.5 * (rtx + 20 + 0.5 * 40) / 100 + 0.5 * 2.3348 * rtx / 140)
+    # 1 May: RTX alone, at its own return.
+    assert log.set_index("date").loc["2020-05-01", "names"] == "RTX"
+    assert r.loc["2020-05-04"] == pytest.approx(0.02)
+
+
 def test_hedge_ratio_uses_only_past_data():
     days = pd.bdate_range("2020-01-01", periods=600)
     rng = np.random.default_rng(1)
